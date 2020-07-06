@@ -26,8 +26,8 @@ class DecidaPorMim():
 
         if self.iniciar == 'i':
             self.Iniciar()
-        else:
-            self.iniciar
+        elif self.iniciar != 'i':
+            print('Até breve!')
 
     def Iniciar(self):
         self.DuvidaDoUsuario()
